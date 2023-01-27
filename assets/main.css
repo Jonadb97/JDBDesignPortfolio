@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #ececec;
+}
+
+header > nav > ul {
+  list-style: none;
+  font-family: "Heebo";
+}
+
+header > nav > ul > li:hover {
+  list-style: none;
+  font-family: "Heebo";
+  font-weight: bold;
+  cursor: pointer;
+}
+
+p {
+  font-family: "Quicksand";
+}
+
+/* SECCIONES */
+
+#galeria {
+  height: 100vh;
+}
+
+#seccion-inicio {
+  height: 100vh;
+}
+
+#acerca {
+  height: 100vh;
+  background-color: rgb(26, 26, 26);
+  color: #ececec;
+}
+
+#acerca>h1{
+  font-family: 'Heebo';
+  font-weight: 300;
+}
+
+
+/* SECCIONES */
+
+
+/* RESPONSIVENESS */
+
+/* 1080p */
+@media (min-width: 1920px) {
+  #inicio {
+    height: 600px;
+  }
+}
+
+/* 720p or less*/
+@media (max-width: 1280px) {
+  #inicio {
+    height: 300px;
+  }
+}
+
+/* RESPONSIVENESS */
+
+/* ANIMATIONS */
+#calistenia-web-img {
+  transform: translateY(-12rem);
+  transition: transform .2s; /* Animation */
+  box-shadow: 0px 0px 20px rgba(28, 28, 28, 0.725);
+}
+
+#calistenia-web-img:hover {
+  transform: scale(1.6); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.animate__animated.animate__bounce {
+  --animate-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+#arrow-down {
+  animation-name: fadeInUp, bounce;
+  animation-duration: 3s, 2s;
+  animation-iteration-count: 1, infinite;
+  cursor: pointer;
+}
+
+.arrow-down-2 {
+  animation-name: fadeInUp, bounce;
+  animation-duration: 3s, 2s;
+  animation-iteration-count: 1, infinite;
+  cursor: pointer;
+}
+
+#inicio-text {
+  animation-duration: 2s;
+}
+
+#logo-img {
+  animation-duration: 1.3s;
+}
+
+/* ANIMATIONS */
