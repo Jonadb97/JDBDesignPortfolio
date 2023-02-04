@@ -1,3 +1,5 @@
+
+
 <template>
   <div>
     <div id="seccion-inicio">
@@ -22,8 +24,7 @@
         <img id="logo-img" class="animate__animated animate__fadeInLeftBig flex mt-auto mb-auto ha"
           src="./assets/img/LogoSVG.svg" alt="">
         <p id="inicio-text" class="animate__animated animate__fadeInRightBig text-4xl ml-auto mr-auto mt-auto mb-auto">
-          Diseñador gráfico y desarrollador web front-end
-          basado en Argentina.</p>
+          Diseñador gráfico y desarrollador web front-end.</p>
 
       </div>
       <img id="arrow-down" class="animate__animated animate__bounce block mt-auto ml-auto mr-auto"
@@ -60,10 +61,17 @@
   <!-- Zona galería -->
 <div id="galeria">
 <img id="jdb-icon1" src="./assets/img/LogoSVG.svg" class="w-32 p-12 absolute" alt="">
-
+<!--
 <div id="galeria-container" class="pt-36vh flex">
   <img id="left-gallery-arrow" class="absolute position-left" src="./assets/img/arrowleft.svg"  alt=""><div class="absolute ml-28vw " id="selectable-container"><img id="calistenia-web-img" src="./assets/img/calisteniaWeb.gif" class="translate-y--24" alt=""></div><img id="right-gallery-arrow" src="./assets/img/arrowright.svg" class="ml-auto" alt="">
 </div>
+-->
+<el-carousel class="pt-48" :interval="4000" type="card" height="360px">
+    <el-carousel-item v-for="item in items" :key="item">
+      <h3 text="2xl" justify="center">{{ items.item }}</h3>
+    </el-carousel-item>
+  </el-carousel>
+
 </div>
 
   <!-- Zona galería -->
@@ -76,6 +84,11 @@
 </style>
 
 <script setup lang="ts">
+let items = [
+  'item',
+  'item2',
+  'item3',
+]
 
 const scrollAcerca = () => {
   document.getElementById('acerca')?.scrollIntoView({

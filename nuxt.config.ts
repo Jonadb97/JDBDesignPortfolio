@@ -2,6 +2,7 @@
 export default defineNuxtConfig({
     modules: [ 
         '@unocss/nuxt',
+        '@element-plus/nuxt',
          ],
     plugins: [
         
