@@ -108,6 +108,9 @@ p {
 /* ANIMATIONS */
 
 /* ELEMENTOR */
+.el-carousel__item {
+  box-shadow: black 0px 0px 20px;
+}
 
 .el-carousel__item h3 {
   color: #475669;
@@ -121,8 +124,18 @@ p {
   background-color: #99a9bf;
 }
 
+
+
 .el-carousel__item:nth-child(2n + 1) {
   background-color: #d3dce6;
+}
+
+.is-in-stage {
+  opacity: 20%;
+}
+
+.is-active {
+  opacity: 100%;
 }
 
 /* ELEMENTOR */

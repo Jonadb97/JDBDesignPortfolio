@@ -66,10 +66,23 @@
   <img id="left-gallery-arrow" class="absolute position-left" src="./assets/img/arrowleft.svg"  alt=""><div class="absolute ml-28vw " id="selectable-container"><img id="calistenia-web-img" src="./assets/img/calisteniaWeb.gif" class="translate-y--24" alt=""></div><img id="right-gallery-arrow" src="./assets/img/arrowright.svg" class="ml-auto" alt="">
 </div>
 -->
-<el-carousel class="pt-48" :interval="4000" type="card" height="360px">
-    <el-carousel-item v-for="item in items" :key="item">
-      <h3 text="2xl" justify="center">{{ items.item }}</h3>
+<el-carousel class="pt-86" :interval="4000" type="card" height="430px">
+    <el-carousel-item>
+      <a href="https://jonadb97.github.io/blog-calistenia-public/" target="_blank"><h3 text="" justify="center"><img src="./assets/img/calisteniaWeb.gif" class="w-full" alt=""></h3></a>
     </el-carousel-item>
+    <el-carousel-item>
+      <a href="https://jonadb97.github.io/LGWeb/" target="_blank"><h3 text="" justify="center"><img src="./assets/img/lgWeb.gif" class="w-full" alt=""></h3></a>
+    </el-carousel-item>
+    <el-carousel-item>
+      <a href="https://jonadb97.github.io/JarrisBarberclubGit/" target="_blank"><h3 text="" justify="center"><img src="./assets/img/jarrisWeb.gif" class="w-full" alt=""></h3></a>
+    </el-carousel-item>
+    <el-carousel-item>
+      <a href="https://jonadb97.github.io/ImprontaPeluGit/" target="_blank"><h3 text="" justify="center"><img src="./assets/img/improntaWeb.gif" class="w-full" alt=""></h3></a>
+    </el-carousel-item>
+    <el-carousel-item>
+      <a href="https://jonadb97.github.io/odin-landing/" target="_blank"><h3 text="" justify="center"><img src="./assets/img/odinWeb.gif" class="w-full" alt=""></h3></a>
+    </el-carousel-item>
+
   </el-carousel>
 
 </div>
@@ -84,11 +97,8 @@
 </style>
 
 <script setup lang="ts">
-let items = [
-  'item',
-  'item2',
-  'item3',
-]
+import { DiffieHellmanGroup } from 'crypto';
+import { imageProps } from 'element-plus';
 
 const scrollAcerca = () => {
   document.getElementById('acerca')?.scrollIntoView({
