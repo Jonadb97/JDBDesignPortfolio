@@ -24,7 +24,7 @@
         <img id="logo-img" class="animate__animated animate__fadeInLeftBig flex mt-auto mb-auto ha"
           src="./assets/img/LogoSVG.svg" alt="">
         <p id="inicio-text" class="animate__animated animate__fadeInRightBig text-4xl ml-auto mr-auto mt-auto mb-auto">
-          Diseñador gráfico y desarrollador web front-end.</p>
+          Diseñador gráfico y desarrollador web front-end Argentino.</p>
 
       </div>
       <img id="arrow-down" class="animate__animated animate__bounce block mt-auto ml-auto mr-auto"
@@ -47,7 +47,7 @@
       <p id="parrafo-acerca" class="ml-auto mr-auto mt-auto mb-auto p-24 text-4xl w-180 text-center flex-row">Me gusta diseñar logos, ilustraciones, posteos
         para redes sociales
         y también hacer edición de video.
-        Como desarrollador me gusta utilizar Vue par0
+        Como desarrollador me gusta utilizar <p class="font-italic">Vue</p> para
         crear sitios minimalistas y responsive.
         Siempre que puedo utilizo herramientas de
         código abierto pero siempre estoy dispuesto
