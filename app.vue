@@ -47,26 +47,28 @@
       <p id="parrafo-acerca" class="ml-auto mr-auto mt-auto mb-auto p-24 text-4xl w-180 text-center flex-row">Me gusta diseñar logos, ilustraciones, posteos
         para redes sociales
         y también hacer edición de video.
-        Como desarrollador me gusta utilizar <p class="font-italic">Vue</p> para
+        Como desarrollador me gusta utilizar <em>Vue</em> para
         crear sitios minimalistas y responsive.
         Siempre que puedo utilizo herramientas de
         código abierto pero siempre estoy dispuesto
         a probar nuevas tecnologías, ya sea software,
         frameworks o librerías.</p>
-        <img id="arrow-down-2" class="block mt-auto ml-auto mr-auto"
+        <img id="arrow-down-2" class="block mt-auto ml-auto mr-auto pt-42"
         src="./assets/img/arrowdownwhite.svg" alt="" @click="scrollGaleria">
       </div>
     </div>
 
   <!-- Zona galería -->
 <div id="galeria">
+  
 <img id="jdb-icon1" src="./assets/img/LogoSVG.svg" class="w-32 p-12 absolute" alt="">
+<h1  class="p-24 text-6xl text-center">Proyectos</h1>
 <!--
 <div id="galeria-container" class="pt-36vh flex">
   <img id="left-gallery-arrow" class="absolute position-left" src="./assets/img/arrowleft.svg"  alt=""><div class="absolute ml-28vw " id="selectable-container"><img id="calistenia-web-img" src="./assets/img/calisteniaWeb.gif" class="translate-y--24" alt=""></div><img id="right-gallery-arrow" src="./assets/img/arrowright.svg" class="ml-auto" alt="">
 </div>
 -->
-<el-carousel class="pt-86" :interval="4000" type="card" height="430px">
+<el-carousel class="pt-12 pb-12" :interval="4000" type="card" height="430px">
     <el-carousel-item>
       <a href="https://jonadb97.github.io/blog-calistenia-public/" target="_blank"><h3 text="" justify="center"><img src="./assets/img/calisteniaWeb.gif" class="w-full" alt=""></h3></a>
     </el-carousel-item>
@@ -84,12 +86,30 @@
     </el-carousel-item>
 
   </el-carousel>
-
+  <img id="arrow-down" class="animate__animated animate__bounce block mt-auto ml-auto mr-auto"
+        src="./assets/img/arrowdown.svg" alt="" @click="scrollContacto">
 </div>
 
   <!-- Zona galería -->
     
+  <!-- Zona contacto -->
+  <div id="contacto" class="">
+      <img id="jdb-icon1" src="./assets/img/LogoSVGwhite.svg" class="w-32 p-12 absolute" alt="">
+      <h1 id="title-acerca" class="p-24 text-6xl text-center">Contacto</h1>
+      <form class="text-center block" action="">
+        <input class="text-2xl p-6 m-6" type="text" placeholder="Nombre"><br>
+        <input class="text-2xl p-6 m-6" type="text" placeholder="Mail"><br>
+        <textarea class="text-2xl p-6 m-6" name="Carta" id="carta" cols="30" rows="10" placeholder="Escriba su carta acá"></textarea>
+      </form>
+      <div>
+        <img src="" alt=""> 
+        <img src="" alt="">
+        <img src="" alt="">
+      </div>
+      </div>
   </div>
+
+  <!-- Zona contacto -->
 </template>
 
 <style>
@@ -118,6 +138,13 @@ const scrollAcerca = () => {
 
 const scrollGaleria = () => {
   document.getElementById('galeria')?.scrollIntoView({
+    behavior: 'smooth'
+  })
+
+}
+
+const scrollContacto = () => {
+  document.getElementById('contacto')?.scrollIntoView({
     behavior: 'smooth'
   })
 

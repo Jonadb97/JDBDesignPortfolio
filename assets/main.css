@@ -26,6 +26,23 @@ p {
 
 /* SECCIONES */
 
+input {
+  background-color: rgb(12, 12, 12);
+  color: #ececec;
+  border: 0;
+  outline: 0;
+  font-family: "Quicksand";
+}
+
+textarea {
+  background-color: rgb(12, 12, 12);
+  color: #ececec;
+  border: 0;
+  outline: 0;
+  font-family: "Quicksand";
+}
+
+
 #galeria {
   height: 100vh;
 }
@@ -40,7 +57,13 @@ p {
   color: #ececec;
 }
 
-#acerca>h1{
+#contacto {
+  height: 100vh;
+  background-color: rgb(26, 26, 26);
+  color: #ececec;
+}
+
+h1{
   font-family: 'Heebo';
   font-weight: 300;
 }
