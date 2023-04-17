@@ -49,6 +49,21 @@
    </div>
 <!-- Seccion Inicio Phone -->
 
+<!-- Seccion Inicio Phone MINI -->
+<div v-if="$screen.width < 800" id="seccion-inicio">
+      <header>
+        <nav>
+          <ul class="flex justify-center mr-auto ml-auto text-1xl font-light p-4">
+            <li class="m-2">Inicio</li>
+            <li @click="scrollAcerca" class="m-2">Acerca</li>
+            <li @click="scrollGaleria" class="m-2">Proyectos</li>
+            <li @click="scrollContacto" class="m-2">Contacto</li>
+          </ul>
+        </nav>
+      </header>
+   </div>
+<!-- Seccion Inicio Phone -->
+
 
 <!-- Zona inicio FHD -->
 
@@ -170,19 +185,19 @@
 -->
 <el-carousel class="pt-12 pb-12" :interval="4000" type="card" height="430px">
     <el-carousel-item>
-      <a href="https://jonadb97.github.io/blog-calistenia/" target="_blank"><h3 text="" justify="center"><img src="./assets/img/calisteniaWeb.gif" class="w-full" alt=""></h3></a>
+      <a href="https://jonadb97.github.io/blog-calistenia/" target="_blank"><h3  ><img src="./assets/img/calisteniaWeb.gif" class="w-full" alt=""></h3></a>
     </el-carousel-item>
     <el-carousel-item>
-      <a href="https://jonadb97.github.io/LGWeb/" target="_blank"><h3 text="" justify="center"><img src="./assets/img/lgWeb.gif" class="w-full" alt=""></h3></a>
+      <a href="https://jonadb97.github.io/LGWeb/" target="_blank"><h3  justify="center"><img src="./assets/img/lgWeb.gif" class="w-full" alt=""></h3></a>
     </el-carousel-item>
     <el-carousel-item>
-      <a href="https://jonadb97.github.io/JarrisBarberclubGit/" target="_blank"><h3 text="" justify="center"><img src="./assets/img/jarrisWeb.gif" class="w-full" alt=""></h3></a>
+      <a href="https://jonadb97.github.io/JarrisBarberclubGit/" target="_blank"><h3  ><img src="./assets/img/jarrisWeb.gif" class="w-full" alt=""></h3></a>
     </el-carousel-item>
     <el-carousel-item>
-      <a href="https://jonadb97.github.io/ImprontaPeluGit/" target="_blank"><h3 text="" justify="center"><img src="./assets/img/improntaWeb.gif" class="w-full" alt=""></h3></a>
+      <a href="https://jonadb97.github.io/ImprontaPeluGit/" target="_blank"><h3 ><img src="./assets/img/improntaWeb.gif" class="w-full" alt=""></h3></a>
     </el-carousel-item>
     <el-carousel-item>
-      <a href="https://jonadb97.github.io/odin-landing/" target="_blank"><h3 text="" justify="center"><img src="./assets/img/odinWeb.gif" class="w-full" alt=""></h3></a>
+      <a href="https://jonadb97.github.io/odin-landing/" target="_blank"><h3 justify="center"><img src="./assets/img/odinWeb.gif" class="w-full" alt=""></h3></a>
     </el-carousel-item>
 
   </el-carousel>
@@ -205,19 +220,19 @@
   -->
   <el-carousel class="pt-8 pb-4" :interval="4000" type="card" height="320px">
       <el-carousel-item>
-        <a href="https://jonadb97.github.io/blog-calistenia/" target="_blank"><h3 text="" justify="center"><img src="./assets/img/calisteniaWeb.gif" class="w-full" alt=""></h3></a>
+        <a href="https://jonadb97.github.io/blog-calistenia/" target="_blank"><h3 ><img src="./assets/img/calisteniaWeb.gif" class="w-full" alt=""></h3></a>
       </el-carousel-item>
       <el-carousel-item>
-        <a href="https://jonadb97.github.io/LGWeb/" target="_blank"><h3 text="" justify="center"><img src="./assets/img/lgWeb.gif" class="w-full" alt=""></h3></a>
+        <a href="https://jonadb97.github.io/LGWeb/" target="_blank"><h3 ><img src="./assets/img/lgWeb.gif" class="w-full" alt=""></h3></a>
       </el-carousel-item>
       <el-carousel-item>
-        <a href="https://jonadb97.github.io/JarrisBarberclubGit/" target="_blank"><h3 text="" justify="center"><img src="./assets/img/jarrisWeb.gif" class="w-full" alt=""></h3></a>
+        <a href="https://jonadb97.github.io/JarrisBarberclubGit/" target="_blank"><h3 ><img src="./assets/img/jarrisWeb.gif" class="w-full" alt=""></h3></a>
       </el-carousel-item>
       <el-carousel-item>
-        <a href="https://jonadb97.github.io/ImprontaPeluGit/" target="_blank"><h3 text="" justify="center"><img src="./assets/img/improntaWeb.gif" class="w-full" alt=""></h3></a>
+        <a href="https://jonadb97.github.io/ImprontaPeluGit/" target="_blank"><h3 ><img src="./assets/img/improntaWeb.gif" class="w-full" alt=""></h3></a>
       </el-carousel-item>
       <el-carousel-item>
-        <a href="https://jonadb97.github.io/odin-landing/" target="_blank"><h3 text="" justify="center"><img src="./assets/img/odinWeb.gif" class="w-full" alt=""></h3></a>
+        <a href="https://jonadb97.github.io/odin-landing/" target="_blank"><h3 justify="center"><img src="./assets/img/odinWeb.gif" class="w-full" alt=""></h3></a>
       </el-carousel-item>
   
     </el-carousel>
@@ -239,15 +254,15 @@
     <img id="left-gallery-arrow" class="absolute position-left" src="./assets/img/arrowleft.svg"  alt=""><div class="absolute ml-28vw " id="selectable-container"><img id="calistenia-web-img" src="./assets/img/calisteniaWeb.gif" class="translate-y--24" alt=""></div><img id="right-gallery-arrow" src="./assets/img/arrowright.svg" class="ml-auto" alt="">
   </div>
   -->
-        <button class=" p-0 flex flex-center ml-auto mr-auto border-none"><a href="https://jonadb97.github.io/blog-calistenia/" target="_blank"><h3  text="" justify="center"><img src="./assets/img/calisteniaWeb.gif" class="w-46 drop-shadow" alt=""></h3></a></button>
+        <button class=" p-0 flex flex-center ml-auto mr-auto border-none"><a href="https://jonadb97.github.io/blog-calistenia/" target="_blank"><h3  ><img src="./assets/img/calisteniaWeb.gif" class="w-46 drop-shadow" alt=""></h3></a></button>
 
-        <button class="p-0 flex flex-center ml-auto mr-auto border-none"><a href="https://jonadb97.github.io/LGWeb/" target="_blank"><h3 class=" p-4 flex flex-center justify-center" text="" justify="center"><img src="./assets/img/lgWeb.gif" class="w-46 drop-shadow" alt=""></h3></a></button>
+        <button class="p-0 flex flex-center ml-auto mr-auto border-none"><a href="https://jonadb97.github.io/LGWeb/" target="_blank"><h3 class=" p-4 flex flex-center justify-center"  ><img src="./assets/img/lgWeb.gif" class="w-46 drop-shadow" alt=""></h3></a></button>
 
-        <button class="p-0 flex flex-center ml-auto mr-auto border-none"><a href="https://jonadb97.github.io/JarrisBarberclubGit/" target="_blank"><h3 class=" p-4 flex flex-center justify-center" text="" justify="center"><img src="./assets/img/jarrisWeb.gif" class="w-46 drop-shadow" alt=""></h3></a></button>
+        <button class="p-0 flex flex-center ml-auto mr-auto border-none"><a href="https://jonadb97.github.io/JarrisBarberclubGit/" target="_blank"><h3 class=" p-4 flex flex-center justify-center" ><img src="./assets/img/jarrisWeb.gif" class="w-46 drop-shadow" alt=""></h3></a></button>
 
-        <button class=" p-0 flex flex-center ml-auto mr-auto border-none"><a href="https://jonadb97.github.io/ImprontaPeluGit/" target="_blank"><h3 class=" p-4 flex flex-center justify-center" text="" justify="center"><img src="./assets/img/improntaWeb.gif" class="w-46 drop-shadow" alt=""></h3></a></button>
+        <button class=" p-0 flex flex-center ml-auto mr-auto border-none"><a href="https://jonadb97.github.io/ImprontaPeluGit/" target="_blank"><h3 class=" p-4 flex flex-center justify-center" ><img src="./assets/img/improntaWeb.gif" class="w-46 drop-shadow" alt=""></h3></a></button>
         
-        <button class="p-0 flex flex-center ml-auto mr-auto border-none"><a href="https://jonadb97.github.io/odin-landing/" target="_blank"><h3 class=" p-4 flex flex-center justify-center" text="" justify="center"><img src="./assets/img/odinWeb.gif" class="w-46 drop-shadow" alt=""></h3></a></button>
+        <button class="p-0 flex flex-center ml-auto mr-auto border-none"><a href="https://jonadb97.github.io/odin-landing/" target="_blank"><h3 class=" p-4 flex flex-center justify-center" ><img src="./assets/img/odinWeb.gif" class="w-46 drop-shadow" alt=""></h3></a></button>
 
 
     <img id="arrow-down" class="animate__animated animate__bounce block mt-auto ml-auto mr-auto pt-12"
@@ -292,7 +307,7 @@
   <img id="jdb-icon1" src="./assets/img/LogoSVGwhite.svg" class="w-16 p-16 absolute" alt="">
       <h1 id="title-acerca" class="p-24 text-3xl text-center">Contacto</h1>
       <button id="whapp" class="font-bold bg-transparent border-none cursor-pointer block ml-auto mr-auto text-white text-center text-3xl h16 w-auto pl-6 pr-6 "><img class="h-16" src="./assets/img/whappwhite.svg"><a href="http://www.wa.link/6essxn" target="__blank">Contactáme</a></button>
-      <button id="gmail" class="font-bold bg-transparent border-none cursor-pointer block ml-auto mr-auto text-white text-center text-3xl h16 w-auto pl-6 pr-6 mt-16 decoration-none"><a href="https://mail.google.com/mail/?view=cm&source=mailto&to=jonathandb917@gmail.com" target="__blank" ><img class="h-16 text-center vertical-mid" src="./assets/img/gmailcolor.svg">Gmail</a></button>
+      <button id="gmail" class="font-bold bg-transparent border-none cursor-pointer block ml-auto mr-auto text-white text-center text-3xl h16 w-auto pl-6 pr-6 mt-16 decoration-none"><a href="https://mail.google.com/mail/?view=cm&source=mailto&to=jonathandb917@gmail.com" ><img class="h-16 text-center vertical-mid" src="./assets/img/gmailcolor.svg">Gmail</a></button>
 </div>
   
 
