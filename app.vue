@@ -76,12 +76,11 @@
 
 <!-- Zona inicio Phone -->
 
-<div v-if="screen.width <= 814" class="flex-row h-auto pb-20" id="inicio">
+      <div v-if="screen.width <= 814" class="flex-row h-auto pb-20" id="inicio">
         <img id="logo-img" class="animate__animated animate__fadeInLeftBig flex ha ml-6"
           src="./assets/img/LogoSVG.svg" alt="">
         <p id="inicio-text" class="animate__animated animate__fadeInRightBig text-1xl ml-auto mr-auto mt-auto mb-auto pt-6 pl-12 pr-12">
           Diseñador gráfico y desarrollador web front-end Argentino.</p>
-
       </div>
 <!-- Zona inicio Phone -->
 
