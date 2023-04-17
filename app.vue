@@ -35,7 +35,7 @@
 <!-- Seccion Inicio HD -->
 
 <!-- Seccion Inicio Phone -->
-<div v-if="screen.width < 900" id="seccion-inicio">
+<div v-if="screen.width <= 814" id="seccion-inicio">
       <header>
         <nav>
           <ul class="flex justify-center mr-auto ml-auto text-1xl font-light p-4">
@@ -76,7 +76,7 @@
 
 <!-- Zona inicio Phone -->
 
-<div v-if="screen.width < 900" class="flex-row h-auto pb-20" id="inicio">
+<div v-if="screen.width <= 814" class="flex-row h-auto pb-20" id="inicio">
         <img id="logo-img" class="animate__animated animate__fadeInLeftBig flex ha ml-6"
           src="./assets/img/LogoSVG.svg" alt="">
         <p id="inicio-text" class="animate__animated animate__fadeInRightBig text-1xl ml-auto mr-auto mt-auto mb-auto pt-6 pl-12 pr-12">
@@ -134,7 +134,7 @@
 
 <!-- Zona acerca Phone -->
 
-<div v-if="screen.width < 900" id="acerca" class="">
+<div v-if="screen.width <= 814" id="acerca" class="">
       <img id="jdb-icon1" src="./assets/img/LogoSVGwhite.svg" class="w-16 p-6 absolute" alt="">
       <h1 id="title-acerca" class="p-16 text-2xl text-center">Acerca</h1>
       <div  class="block mt-auto ml-auto mr-auto">
@@ -230,7 +230,7 @@
 
 <!-- Zona galería Phone -->
 
-<div v-if="screen.width < 900" id="galeria" class="justify-center">
+<div v-if="screen.width <= 814" id="galeria" class="justify-center">
   
   <img id="jdb-icon1" src="./assets/img/LogoSVG.svg" class="w-16 p-6 absolute" alt="">
   <h1  class="pt-12 pb-6 text-2xl text-center">Proyectos</h1>
@@ -288,7 +288,7 @@
 <!-- Zona contacto Phone -->
 
 
-<div v-if="screen.width < 900" id="contacto" class="">
+<div v-if="screen.width <= 814" id="contacto" class="">
   <img id="jdb-icon1" src="./assets/img/LogoSVGwhite.svg" class="w-16 p-16 absolute" alt="">
       <h1 id="title-acerca" class="p-24 text-3xl text-center">Contacto</h1>
       <button id="whapp" class="font-bold bg-transparent border-none cursor-pointer block ml-auto mr-auto text-white text-center text-3xl h16 w-auto pl-6 pr-6 "><img class="h-16" src="./assets/img/whappwhite.svg"><a href="http://www.wa.link/6essxn" target="__blank">Contactáme</a></button>
