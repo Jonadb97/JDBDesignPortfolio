@@ -49,21 +49,6 @@
    </div>
 <!-- Seccion Inicio Phone -->
 
-<!-- Seccion Inicio Phone MINI -->
-<div v-if="screen.width < 800" id="seccion-inicio">
-      <header>
-        <nav>
-          <ul class="flex justify-center mr-auto ml-auto text-1xl font-light p-4">
-            <li class="m-2">Inicio</li>
-            <li @click="scrollAcerca" class="m-2">Acerca</li>
-            <li @click="scrollGaleria" class="m-2">Proyectos</li>
-            <li @click="scrollContacto" class="m-2">Contacto</li>
-          </ul>
-        </nav>
-      </header>
-   </div>
-<!-- Seccion Inicio Phone -->
-
 
 <!-- Zona inicio FHD -->
 
