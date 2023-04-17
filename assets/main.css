@@ -42,13 +42,63 @@ textarea {
   font-family: "Quicksand";
 }
 
+#whapp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #24cc63;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+#galeria > button:active {
+  transform: scale(1.1);
+}
+
+#whapp:hover {
+  background-color: #128c7e;
+  transform: scale(1.1);
+}
+
+#whapp > a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#whapp > a:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#gmail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ededed;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+  color: #2c2c2c;
+  text-decoration: none;
+}
+
+#gmail:hover {
+  background-color: #ffffff;
+  transform: scale(1.1);
+}
+
+#gmail > a {
+  text-decoration: none;
+}
+
+#gmail > a:visited {
+  color: #2c2c2c;
+  text-decoration: none;
+}
 
 #galeria {
   height: 100vh;
 }
 
-#seccion-inicio {
-  height: 100vh;
+#inicio {
+  height: 70vh;
 }
 
 #acerca {
@@ -59,6 +109,7 @@ textarea {
 
 #contacto {
   height: 100vh;
+  padding-bottom: 24px;
   background-color: rgb(26, 26, 26);
   color: #ececec;
 }
@@ -70,25 +121,6 @@ h1{
 
 
 /* SECCIONES */
-
-
-/* RESPONSIVENESS */
-
-/* 1080p */
-@media (min-width: 1920px) {
-  #inicio {
-    height: 600px;
-  }
-}
-
-/* 720p or less*/
-@media (max-width: 1280px) {
-  #inicio {
-    height: 300px;
-  }
-}
-
-/* RESPONSIVENESS */
 
 /* ANIMATIONS */
 #calistenia-web-img {

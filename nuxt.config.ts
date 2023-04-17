@@ -5,7 +5,7 @@ export default defineNuxtConfig({
         '@element-plus/nuxt',
          ],
     plugins: [
-        
+        {src: '~/plugins/VueScreen.ts'}
     ]
     
 })
