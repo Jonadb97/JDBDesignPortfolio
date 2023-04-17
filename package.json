@@ -10,7 +10,8 @@
   "devDependencies": {
     "@element-plus/nuxt": "^1.0.2",
     "@unocss/nuxt": "^0.48.0",
-    "nuxt": "3.0.0"
+    "nuxt": "3.0.0",
+    "vue-screen": "^2.2.0"
   },
   "dependencies": {
     "@nuxtjs/google-fonts": "^2.0.0",
