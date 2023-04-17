@@ -330,6 +330,7 @@
 <script setup lang="ts">
 import { DiffieHellmanGroup } from 'crypto';
 import { imageProps } from 'element-plus';
+import VueScreen from 'vue-screen'
 
 
 const scrollAcerca = () => {
