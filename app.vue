@@ -93,10 +93,7 @@
       <img id="jdb-icon1" src="./assets/img/LogoSVGwhite.svg" class="w-32 p-12 absolute" alt="">
       <h1 id="title-acerca" class="p-24 text-6xl text-center">Acerca</h1>
       <div  class="block mt-auto ml-auto mr-auto">
-      <p id="parrafo-acerca" class="ml-auto mr-auto mt-auto mb-auto p-24 text-4xl w-180 text-center flex-row">Me gusta diseñar logos, ilustraciones, posteos
-        para redes sociales
-        y también hago edición de video.
-        Como desarrollador me gusta utilizar <em>Vue</em> para
+      <p id="parrafo-acerca" class="ml-auto mr-auto mt-auto mb-auto p-24 text-4xl w-180 text-center flex-row">Me gusta utilizar <em>Vue</em> para
         crear sitios minimalistas y responsive.
         Siempre que puedo utilizo herramientas de
         código abierto pero estoy dispuesto
