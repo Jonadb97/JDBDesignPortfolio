@@ -262,9 +262,9 @@
 
   <div v-if="screen.width > 1400" id="contacto" class="">
       <img id="jdb-icon1" src="./assets/img/LogoSVGwhite.svg" class="w-32 p-12 absolute" alt="">
-      <h1 id="title-acerca" class="p-24 text-6xl text-center">Contacto</h1>
-      <button id="whapp" class="font-bold bg-transparent border-none cursor-pointer block ml-auto mr-auto text-white text-center text-3xl h16 w-auto pl-6 pr-6 "><img class="h-16" src="./assets/img/whappwhite.svg"><a href="http://www.wa.link/6essxn" target="__blank">Contactáme</a></button>
-      <button id="gmail" class="font-bold bg-transparent border-none cursor-pointer block ml-auto mr-auto text-white text-center text-3xl h16 w-auto pl-6 pr-6 mt-16 decoration-none"><a href="https://mail.google.com/mail/?view=cm&source=mailto&to=jonathandb917@gmail.com" target="__blank" ><img class="h-16 text-center vertical-mid" src="./assets/img/gmailcolor.svg">Gmail</a></button>
+      <h1 id="title-acerca" class="p-24 text-3xl text-center">Contacto</h1>
+      <button id="whapp" class="bg-transparent border-none cursor-pointer block ml-auto mr-auto text-white text-center text-3xl h16 w-auto pl-6 pr-6 "><a href="http://www.wa.link/6essxn" target="__blank"><i class="bi bi-envelope"></i>Contactáme</a></button>
+      <button id="gmail" class="bg-transparent border-none cursor-pointer block ml-auto mr-auto text-white text-center text-3xl h16 w-auto pl-6 pr-6 mt-16 decoration-none"><a href="https://mail.google.com/mail/?view=cm&source=mailto&to=jonathandb917@gmail.com" target="__blank" >Gmail</a></button>
       </div>
   
 
@@ -275,9 +275,9 @@
 
 <div v-if="screen.width < 1400 && screen.width > 800" id="contacto" class="">
   <img id="jdb-icon1" src="./assets/img/LogoSVGwhite.svg" class="w-32 p-12 absolute" alt="">
-      <h1 id="title-acerca" class="p-24 text-6xl text-center">Contacto</h1>
-      <button id="whapp" class="font-bold bg-transparent border-none cursor-pointer block ml-auto mr-auto text-white text-center text-3xl h16 w-auto pl-6 pr-6 "><img class="h-16" src="./assets/img/whappwhite.svg"><a href="http://www.wa.link/6essxn" target="__blank">Contactáme</a></button>
-      <button id="gmail" class="font-bold bg-transparent border-none cursor-pointer block ml-auto mr-auto text-white text-center text-3xl h16 w-auto pl-6 pr-6 mt-16 decoration-none"><a href="https://mail.google.com/mail/?view=cm&source=mailto&to=jonathandb917@gmail.com" target="__blank" ><img class="h-16 text-center vertical-mid" src="./assets/img/gmailcolor.svg">Gmail</a></button>
+      <h1 id="title-acerca" class="p-24 text-3xl text-center">Contacto</h1>
+      <button id="whapp" class="font-bold bg-transparent border-none cursor-pointer block ml-auto mr-auto text-white text-center text-3xl h16 w-auto pl-6 pr-6 "><a href="http://www.wa.link/6essxn" target="__blank"><i class="bi bi-envelope"></i>Contactáme</a></button>
+      <button id="gmail" class="font-bold bg-transparent border-none cursor-pointer block ml-auto mr-auto text-white text-center text-3xl h16 w-auto pl-6 pr-6 mt-16 decoration-none"><a href="https://mail.google.com/mail/?view=cm&source=mailto&to=jonathandb917@gmail.com" target="__blank" >Gmail</a></button>
 </div>
   
 
@@ -290,7 +290,7 @@
 <div v-if="screen.width <= 814" id="contacto" class="">
   <img id="jdb-icon1" src="./assets/img/LogoSVGwhite.svg" class="w-16 p-16 absolute" alt="">
       <h1 id="title-acerca" class="p-24 text-3xl text-center">Contacto</h1>
-      <button id="whapp" class="font-bold bg-transparent border-none cursor-pointer block ml-auto mr-auto text-white text-center text-3xl h16 w-auto pl-6 pr-6 "><img class="h-16" src="./assets/img/whappwhite.svg"><a href="http://www.wa.link/6essxn" target="__blank">Contactáme</a></button>
+      <button id="whapp" class="font-bold bg-transparent border-none cursor-pointer block ml-auto mr-auto text-white text-center text-3xl h16 w-auto pl-6 pr-6 "><a href="http://www.wa.link/6essxn" target="__blank">Contactáme</a></button>
       <button id="gmail" class="font-bold bg-transparent border-none cursor-pointer block ml-auto mr-auto text-white text-center text-3xl h16 w-auto pl-6 pr-6 mt-16 decoration-none"><a href="https://mail.google.com/mail/?view=cm&source=mailto&to=jonathandb917@gmail.com" ><img class="h-16 text-center vertical-mid" src="./assets/img/gmailcolor.svg">Gmail</a></button>
 </div>
   

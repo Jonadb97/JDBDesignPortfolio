@@ -16,6 +16,7 @@
   "dependencies": {
     "@nuxtjs/google-fonts": "^2.0.0",
     "@types/nodemailer": "^6.4.7",
+    "bootstrap-icons": "^1.11.3",
     "emailjs-com": "^3.2.0",
     "nodemailer": "^6.9.1",
     "vue-screen": "^2.2.0"
