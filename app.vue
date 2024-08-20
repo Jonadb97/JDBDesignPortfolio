@@ -77,15 +77,13 @@
 <!-- Zona inicio Phone -->
 
       <div v-if="screen.width <= 814" class="flex-row h-auto pb-20" id="inicio">
-        <img id="logo-img" class="animate__animated animate__fadeInLeftBig flex ha ml-6"
+        <img id="logo-img" class="animate__animated animate__fadeInLeftBig flex w-80 m-auto h-100" style="transform: translateY(-50px) !important;"
           src="./assets/img/LogoSVG.svg" alt="">
-        <p id="inicio-text" class="animate__animated animate__fadeInRightBig text-1xl ml-auto mr-auto mt-auto mb-auto pt-6 pl-12 pr-12">
+        <p id="inicio-text" class="animate__animated animate__fadeInRightBig text-1xl ml-auto mr-auto pl-12 pr-12" style="transform: translateY(-64px) !important;">
           Diseñador gráfico y desarrollador web front-end Argentino.</p>
       </div>
 <!-- Zona inicio Phone -->
 
-      <img id="arrow-down" class="animate__animated animate__bounce block mt-auto ml-auto mr-auto"
-        src="./assets/img/arrowdown.svg" alt="" @click="scrollAcerca">
 
 <!-- Zona acerca FHD -->
 
@@ -93,14 +91,12 @@
       <img id="jdb-icon1" src="./assets/img/LogoSVGwhite.svg" class="w-32 p-12 absolute" alt="">
       <h1 id="title-acerca" class="p-24 text-6xl text-center">Acerca</h1>
       <div  class="block mt-auto ml-auto mr-auto">
-      <p id="parrafo-acerca" class="ml-auto mr-auto mt-auto mb-auto p-24 text-4xl w-180 text-center flex-row">Me gusta utilizar <em>Vue</em> para
-        crear sitios minimalistas y responsive.
-        Siempre que puedo utilizo herramientas de
-        código abierto pero estoy dispuesto
-        a probar nuevas tecnologías, ya sea software,
-        frameworks o librerías.</p>
-        <img id="arrow-down-2" class="block mt-auto ml-auto mr-auto"
-        src="./assets/img/arrowdownwhite.svg" alt="" @click="scrollGaleria">
+      <p id="parrafo-acerca" class="ml-auto mr-auto mt-auto mb-auto p-24 text-4xl w-400 text-justify flex-row">Hace 4 años que trabajo principalmente como desarrollador freelance con trabajos locales para independientes, pequeños negocios y agencias creativas.<br>
+        <br>He desarrollado muchas landing pages, galerías, portfolios y blogs estáticos.
+        <br><br> También trabajé como programador dentro de oficina en una empresa local en la que realizaba distintas tareas de mantenimiento e integración de funcionalidades a un amplio repertorio de proyectos hechos con distintos lenguajes como PHP, Python, Dart, Java y TypeScript.<br><br>
+      El framework que más domino es VueJS, desde front-end hasta integración de APIs.
+      Personalmente sigo estudiando y tengo proyectos personales full-stack en PHP nativo.
+      </p>
       </div>
     </div>
 
@@ -112,17 +108,11 @@
       <img id="jdb-icon1" src="./assets/img/LogoSVGwhite.svg" class="w-32 p-12 absolute" alt="">
       <h1 id="title-acerca" class="p-16 text-3xl text-center">Acerca</h1>
       <div  class="block mt-auto ml-auto mr-auto">
-      <p id="parrafo-acerca" class="ml-auto mr-auto mt-auto mb-auto p-18 text-2xl w-180 text-center flex-row">Me gusta diseñar logos, ilustraciones, posteos
-        para redes sociales
-        y también hago edición de video.
-        Como desarrollador me gusta utilizar <em>Vue</em> para
-        crear sitios minimalistas y responsive.
-        Siempre que puedo utilizo herramientas de
-        código abierto pero estoy dispuesto
-        a probar nuevas tecnologías, ya sea software,
-        frameworks o librerías.</p>
-        <img id="arrow-down-2" class="block mt-auto ml-auto mr-auto"
-        src="./assets/img/arrowdownwhite.svg" alt="" @click="scrollGaleria">
+      <p id="parrafo-acerca" class="ml-auto mr-auto mt-auto mb-auto p-18 text-2xl w-230 text-justify flex-row">Hace 4 años que trabajo principalmente como desarrollador freelance con trabajos locales para independientes, pequeños negocios y agencias creativas.<br>
+        <br>He desarrollado muchas landing pages, galerías, portfolios y blogs estáticos.
+        <br><br> También trabajé como programador dentro de oficina en una empresa local en la que realizaba distintas tareas de mantenimiento e integración de funcionalidades a un amplio repertorio de proyectos hechos con distintos lenguajes como PHP, Python, Dart, Java y TypeScript.<br><br>
+      El framework que más domino es VueJS, desde front-end hasta integración de APIs.
+      Personalmente sigo estudiando y tengo proyectos personales full-stack en PHP nativo.</p>
       </div>
     </div>
 
@@ -131,20 +121,14 @@
 <!-- Zona acerca Phone -->
 
 <div v-if="screen.width <= 814" id="acerca" class="">
-      <img id="jdb-icon1" src="./assets/img/LogoSVGwhite.svg" class="w-16 p-6 absolute" alt="">
+      <img id="jdb-icon1" src="./assets/img/LogoSVGwhite.svg" class="w-16 pl-6 pt-10 absolute" alt="">
       <h1 id="title-acerca" class="p-16 text-2xl text-center">Acerca</h1>
       <div  class="block mt-auto ml-auto mr-auto">
-      <p id="parrafo-acerca" class="ml-auto mr-auto mt-auto mb-auto pt-32 text-1xl w-80 text-center flex-row">Me gusta diseñar logos, ilustraciones, posteos
-        para redes sociales
-        y también hago edición de video.
-        Como desarrollador me gusta utilizar <em>Vue</em> para
-        crear sitios minimalistas y responsive.
-        Siempre que puedo utilizo herramientas de
-        código abierto pero estoy dispuesto
-        a probar nuevas tecnologías, ya sea software,
-        frameworks o librerías.</p>
-        <img id="arrow-down-2" class="block mt-auto ml-auto mr-auto pt-32"
-        src="./assets/img/arrowdownwhite.svg" alt="" @click="scrollGaleria">
+      <p id="parrafo-acerca" class="ml-auto mr-auto mt-auto mb-auto text-1xl w-80 text-justify flex-row">Hace 4 años que trabajo principalmente como desarrollador freelance con trabajos locales para independientes, pequeños negocios y agencias creativas.<br>
+        <br>He desarrollado muchas landing pages, galerías, portfolios y blogs estáticos.
+        <br><br> También trabajé como programador dentro de oficina en una empresa local en la que realizaba distintas tareas de mantenimiento e integración de funcionalidades a un amplio repertorio de proyectos hechos con distintos lenguajes como PHP, Python, Dart, Java y TypeScript.<br><br>
+      El framework que más domino es VueJS, desde front-end hasta integración de APIs.
+      Personalmente sigo estudiando y tengo proyectos personales full-stack en PHP nativo.</p>
       </div>
     </div>
 
@@ -178,12 +162,19 @@
       <a href="https://jonadb97.github.io/ImprontaPeluGit/" target="_blank"><h3 ><img src="./assets/img/improntaWeb.gif" class="w-full" alt=""></h3></a>
     </el-carousel-item>
     <el-carousel-item>
-      <a href="https://jonadb97.github.io/odin-landing/" target="_blank"><h3 justify="center"><img src="./assets/img/odinWeb.gif" class="w-full" alt=""></h3></a>
+      <a href="https://jonadb97.github.io/yblclothing/" target="_blank"><h3 justify="center"><img src="./assets/img/demo2-2024-08-20_11ybl.gif" class="w-full" alt=""></h3></a>
+    </el-carousel-item>
+    <el-carousel-item>
+      <a href="https://jonadb97.github.io/mnmalportfolio/" target="_blank"><h3 justify="center"><img src="./assets/img/demo-2024-08-20_11.gif" class="w-full" alt=""></h3></a>
+    </el-carousel-item>
+    <el-carousel-item>
+      <a href="https://jonadb97.github.io/janaesterkindemo/" target="_blank"><h3 justify="center"><img src="./assets/img/demo3-2024-08-20_11jana.gif" class="w-full" alt=""></h3></a>
+    </el-carousel-item>
+    <el-carousel-item>
+      <a href="https://jonadb97.github.io/aitemplateportfolio/" target="_blank"><h3 justify="center"><img src="./assets/img/demo4-2024-08-20_11amelia.gif" class="w-full" alt=""></h3></a>
     </el-carousel-item>
 
   </el-carousel>
-  <img id="arrow-down" class="animate__animated animate__bounce block mt-auto ml-auto mr-auto"
-        src="./assets/img/arrowdown.svg" alt="" @click="scrollContacto">
 </div>
 
 <!-- Zona galería FHD -->
@@ -200,25 +191,31 @@
   </div>
   -->
   <el-carousel class="pt-8 pb-4" :interval="4000" type="card" height="320px">
-      <el-carousel-item>
-        <a href="https://jonadb97.github.io/blog-calistenia/" target="_blank"><h3 ><img src="./assets/img/calisteniaWeb.gif" class="w-full" alt=""></h3></a>
-      </el-carousel-item>
-      <el-carousel-item>
-        <a href="https://jonadb97.github.io/LGWeb/" target="_blank"><h3 ><img src="./assets/img/lgWeb.gif" class="w-full" alt=""></h3></a>
-      </el-carousel-item>
-      <el-carousel-item>
-        <a href="https://jonadb97.github.io/JarrisBarberclubGit/" target="_blank"><h3 ><img src="./assets/img/jarrisWeb.gif" class="w-full" alt=""></h3></a>
-      </el-carousel-item>
-      <el-carousel-item>
-        <a href="https://jonadb97.github.io/ImprontaPeluGit/" target="_blank"><h3 ><img src="./assets/img/improntaWeb.gif" class="w-full" alt=""></h3></a>
-      </el-carousel-item>
-      <el-carousel-item>
-        <a href="https://jonadb97.github.io/odin-landing/" target="_blank"><h3 justify="center"><img src="./assets/img/odinWeb.gif" class="w-full" alt=""></h3></a>
-      </el-carousel-item>
-  
+    <el-carousel-item>
+      <a href="https://jonadb97.github.io/blog-calistenia/" target="_blank"><h3  ><img src="./assets/img/calisteniaWeb.gif" class="w-full" alt=""></h3></a>
+    </el-carousel-item>
+    <el-carousel-item>
+      <a href="https://jonadb97.github.io/LGWeb/" target="_blank"><h3  justify="center"><img src="./assets/img/lgWeb.gif" class="w-full" alt=""></h3></a>
+    </el-carousel-item>
+    <el-carousel-item>
+      <a href="https://jonadb97.github.io/JarrisBarberclubGit/" target="_blank"><h3  ><img src="./assets/img/jarrisWeb.gif" class="w-full" alt=""></h3></a>
+    </el-carousel-item>
+    <el-carousel-item>
+      <a href="https://jonadb97.github.io/ImprontaPeluGit/" target="_blank"><h3 ><img src="./assets/img/improntaWeb.gif" class="w-full" alt=""></h3></a>
+    </el-carousel-item>
+    <el-carousel-item>
+      <a href="https://jonadb97.github.io/yblclothing/" target="_blank"><h3 justify="center"><img src="./assets/img/demo2-2024-08-20_11ybl.gif" class="w-full" alt=""></h3></a>
+    </el-carousel-item>
+    <el-carousel-item>
+      <a href="https://jonadb97.github.io/mnmalportfolio/" target="_blank"><h3 justify="center"><img src="./assets/img/demo-2024-08-20_11.gif" class="w-full" alt=""></h3></a>
+    </el-carousel-item>
+    <el-carousel-item>
+      <a href="https://jonadb97.github.io/janaesterkindemo/" target="_blank"><h3 justify="center"><img src="./assets/img/demo3-2024-08-20_11jana.gif" class="w-full" alt=""></h3></a>
+    </el-carousel-item>
+    <el-carousel-item>
+      <a href="https://jonadb97.github.io/aitemplateportfolio/" target="_blank"><h3 justify="center"><img src="./assets/img/demo4-2024-08-20_11amelia.gif" class="w-full" alt=""></h3></a>
+    </el-carousel-item>
     </el-carousel>
-    <img id="arrow-down" class="animate__animated animate__bounce block mt-auto ml-auto mr-auto"
-          src="./assets/img/arrowdown.svg" alt="" @click="scrollContacto">
   </div>
   
 <!-- Zona galería HD -->
@@ -226,7 +223,7 @@
 
 <!-- Zona galería Phone -->
 
-<div v-if="screen.width <= 814" id="galeria" class="justify-center">
+<div v-if="screen.width <= 814" id="galeria-phone" class="justify-center pb-4">
   
   <img id="jdb-icon1" src="./assets/img/LogoSVG.svg" class="w-16 p-6 absolute" alt="">
   <h1  class="pt-12 pb-6 text-2xl text-center">Proyectos</h1>
@@ -235,19 +232,22 @@
     <img id="left-gallery-arrow" class="absolute position-left" src="./assets/img/arrowleft.svg"  alt=""><div class="absolute ml-28vw " id="selectable-container"><img id="calistenia-web-img" src="./assets/img/calisteniaWeb.gif" class="translate-y--24" alt=""></div><img id="right-gallery-arrow" src="./assets/img/arrowright.svg" class="ml-auto" alt="">
   </div>
   -->
-        <button class=" p-0 flex flex-center ml-auto mr-auto border-none"><a href="https://jonadb97.github.io/blog-calistenia/" target="_blank"><h3  ><img src="./assets/img/calisteniaWeb.gif" class="w-46 drop-shadow" alt=""></h3></a></button>
+    <button class=" p-0 flex flex-center ml-auto mr-auto border-none"><a href="https://jonadb97.github.io/blog-calistenia/" target="_blank"><h3  ><img src="./assets/img/calisteniaWeb.gif" class="w-46 drop-shadow" alt=""></h3></a></button>
 
-        <button class="p-0 flex flex-center ml-auto mr-auto border-none"><a href="https://jonadb97.github.io/LGWeb/" target="_blank"><h3 class=" p-4 flex flex-center justify-center"  ><img src="./assets/img/lgWeb.gif" class="w-46 drop-shadow" alt=""></h3></a></button>
+<button class="p-0 flex flex-center ml-auto mr-auto border-none"><a href="https://jonadb97.github.io/LGWeb/" target="_blank"><h3 class=" p-4 flex flex-center justify-center"  ><img src="./assets/img/lgWeb.gif" class="w-46 drop-shadow" alt=""></h3></a></button>
 
-        <button class="p-0 flex flex-center ml-auto mr-auto border-none"><a href="https://jonadb97.github.io/JarrisBarberclubGit/" target="_blank"><h3 class=" p-4 flex flex-center justify-center" ><img src="./assets/img/jarrisWeb.gif" class="w-46 drop-shadow" alt=""></h3></a></button>
+<button class="p-0 flex flex-center ml-auto mr-auto border-none"><a href="https://jonadb97.github.io/JarrisBarberclubGit/" target="_blank"><h3 class=" p-4 flex flex-center justify-center" ><img src="./assets/img/jarrisWeb.gif" class="w-46 drop-shadow" alt=""></h3></a></button>
 
-        <button class=" p-0 flex flex-center ml-auto mr-auto border-none"><a href="https://jonadb97.github.io/ImprontaPeluGit/" target="_blank"><h3 class=" p-4 flex flex-center justify-center" ><img src="./assets/img/improntaWeb.gif" class="w-46 drop-shadow" alt=""></h3></a></button>
-        
-        <button class="p-0 flex flex-center ml-auto mr-auto border-none"><a href="https://jonadb97.github.io/odin-landing/" target="_blank"><h3 class=" p-4 flex flex-center justify-center" ><img src="./assets/img/odinWeb.gif" class="w-46 drop-shadow" alt=""></h3></a></button>
+<button class=" p-0 flex flex-center ml-auto mr-auto border-none"><a href="https://jonadb97.github.io/ImprontaPeluGit/" target="_blank"><h3 class=" p-4 flex flex-center justify-center" ><img src="./assets/img/improntaWeb.gif" class="w-46 drop-shadow" alt=""></h3></a></button>
 
+<button class="p-0 flex flex-center ml-auto mr-auto border-none"><a href="https://jonadb97.github.io/yblclothing/" target="_blank"><h3 class=" p-4 flex flex-center justify-center" ><img src="./assets/img/demo2-2024-08-20_11ybl.gif" class="w-46 drop-shadow" alt=""></h3></a></button>
 
-    <img id="arrow-down" class="animate__animated animate__bounce block mt-auto ml-auto mr-auto pt-12"
-          src="./assets/img/arrowdown.svg" alt="" @click="scrollContacto">
+<button class="p-0 flex flex-center ml-auto mr-auto border-none"><a href="https://jonadb97.github.io/mnmalportfolio/" target="_blank"><h3 class=" p-4 flex flex-center justify-center" ><img src="./assets/img/demo-2024-08-20_11.gif" class="w-46 drop-shadow" alt=""></h3></a></button>
+
+<button class="p-0 flex flex-center ml-auto mr-auto border-none"><a href="https://jonadb97.github.io/janaesterkindemo/" target="_blank"><h3 class=" p-4 flex flex-center justify-center" ><img src="./assets/img/demo3-2024-08-20_11jana.gif" class="w-46 drop-shadow" alt=""></h3></a></button>
+
+<button class="p-0 flex flex-center ml-auto mr-auto border-none"><a href="https://jonadb97.github.io/aitemplateportfolio/" target="_blank"><h3 class=" p-4 flex flex-center justify-center" ><img src="./assets/img/demo4-2024-08-20_11amelia.gif" class="w-46 drop-shadow" alt=""></h3></a></button>
+
   </div>
   
 <!-- Zona galería Phone -->
@@ -285,10 +285,10 @@
 
 
 <div v-if="screen.width <= 814" id="contacto" class="">
-  <img id="jdb-icon1" src="./assets/img/LogoSVGwhite.svg" class="w-16 p-16 absolute" alt="">
+  <img id="jdb-icon1" src="./assets/img/LogoSVGwhite.svg" class="w-16 pt-18 pl-4 absolute" alt="">
       <h1 id="title-acerca" class="p-24 text-3xl text-center">Contacto</h1>
       <button id="whapp" class="font-bold bg-transparent border-none cursor-pointer block ml-auto mr-auto text-white text-center text-3xl h16 w-auto pl-6 pr-6 "><a href="http://www.wa.link/6essxn" target="__blank">Contactáme</a></button>
-      <button id="gmail" class="font-bold bg-transparent border-none cursor-pointer block ml-auto mr-auto text-white text-center text-3xl h16 w-auto pl-6 pr-6 mt-16 decoration-none"><a href="https://mail.google.com/mail/?view=cm&source=mailto&to=jonathandb917@gmail.com" ><img class="h-16 text-center vertical-mid" src="./assets/img/gmailcolor.svg">Gmail</a></button>
+      <button id="gmail" class="font-bold bg-transparent border-none cursor-pointer block ml-auto mr-auto text-white text-center text-3xl h16 w-auto pl-6 pr-6 mt-16 decoration-none"><a href="https://mail.google.com/mail/?view=cm&source=mailto&to=jonathandb917@gmail.com" >Gmail</a></button>
 </div>
   
 

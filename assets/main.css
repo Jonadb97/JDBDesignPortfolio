@@ -70,7 +70,7 @@ textarea {
 }
 
 #whapp>a:visited {
-    color: #ffffff;
+    color: #24cc63;
     text-decoration: none;
 }
 
@@ -100,23 +100,32 @@ textarea {
 }
 
 #gmail>a:visited {
-    color: #2c2c2c;
     text-decoration: none;
 }
 
 #galeria {
-    height: 100vh;
+    min-height: 100vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+#galeria-phone {
+    height: 100%;
 }
 
 #inicio {
     height: 70vh;
+    padding-bottom: 30vh;
 }
 
 #acerca {
-    height: 100vh;
+    min-height: 100vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     background-color: rgb(26, 26, 26);
     color: #ececec;
 }
+
 
 #contacto {
     height: 100vh;
@@ -204,6 +213,12 @@ h1 {
 
 .is-active {
     opacity: 100%;
+}
+
+.arrow-phone {
+    position: absolute;
+    left: 35%;
+    bottom: 0%;
 }
 
 /* ELEMENTOR */
