@@ -149,6 +149,9 @@
 </div>
 -->
 <el-carousel class="pt-12 pb-12" :interval="4000" type="card" height="430px">
+  <el-carousel-item>
+      <a href="https://jonadb97.github.io/calisteniabb-blog-page/" target="_blank"><h3  ><img src="./assets/img/demo5-2024-08-20_14calis.gif" class="w-full" alt=""></h3></a>
+    </el-carousel-item>
     <el-carousel-item>
       <a href="https://jonadb97.github.io/blog-calistenia/" target="_blank"><h3  ><img src="./assets/img/calisteniaWeb.gif" class="w-full" alt=""></h3></a>
     </el-carousel-item>
@@ -192,6 +195,9 @@
   -->
   <el-carousel class="pt-8 pb-4" :interval="4000" type="card" height="320px">
     <el-carousel-item>
+      <a href="https://jonadb97.github.io/calisteniabb-blog-page/" target="_blank"><h3  ><img src="./assets/img/demo5-2024-08-20_14calis.gif" class="w-full" alt=""></h3></a>
+    </el-carousel-item>
+    <el-carousel-item>
       <a href="https://jonadb97.github.io/blog-calistenia/" target="_blank"><h3  ><img src="./assets/img/calisteniaWeb.gif" class="w-full" alt=""></h3></a>
     </el-carousel-item>
     <el-carousel-item>
@@ -232,6 +238,7 @@
     <img id="left-gallery-arrow" class="absolute position-left" src="./assets/img/arrowleft.svg"  alt=""><div class="absolute ml-28vw " id="selectable-container"><img id="calistenia-web-img" src="./assets/img/calisteniaWeb.gif" class="translate-y--24" alt=""></div><img id="right-gallery-arrow" src="./assets/img/arrowright.svg" class="ml-auto" alt="">
   </div>
   -->
+  <button class=" p-0 flex flex-center ml-auto mr-auto border-none"><a href="https://jonadb97.github.io/calisteniabb-blog-page/" target="_blank"><h3  ><img src="./assets/img/demo5-2024-08-20_14calis.gif" class="w-46 drop-shadow" alt=""></h3></a></button>
     <button class=" p-0 flex flex-center ml-auto mr-auto border-none"><a href="https://jonadb97.github.io/blog-calistenia/" target="_blank"><h3  ><img src="./assets/img/calisteniaWeb.gif" class="w-46 drop-shadow" alt=""></h3></a></button>
 
 <button class="p-0 flex flex-center ml-auto mr-auto border-none"><a href="https://jonadb97.github.io/LGWeb/" target="_blank"><h3 class=" p-4 flex flex-center justify-center"  ><img src="./assets/img/lgWeb.gif" class="w-46 drop-shadow" alt=""></h3></a></button>
