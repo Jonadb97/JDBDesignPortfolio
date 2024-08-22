@@ -21,6 +21,7 @@
     <div v-if="screen.width < 1400 && screen.width > 800" id="seccion-inicio">
       <header>
         <nav>
+          <button id="language" class="language" @click="languageButton()">{{ languageIcon }}</button>
           <ul class="flex justify-end mr-12 text-2xl font-light">
             <li class="m-8">{{ webContent.navbarInicio }}</li>
             <li @click="scrollAcerca" class="m-8">{{ webContent.navbarAcerca }}</li>
@@ -36,6 +37,7 @@
     <div v-if="screen.width <= 814" id="seccion-inicio">
       <header>
         <nav>
+          <button id="language" class="language" @click="languageButton()">{{ languageIcon }}</button>
           <ul
             class="flex justify-center mr-auto ml-auto text-1xl font-light p-4"
           >
