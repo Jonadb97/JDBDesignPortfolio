@@ -124,7 +124,7 @@
       <div class="block mt-auto ml-auto mr-auto">
         <p
           id="parrafo-acerca"
-          class="ml-auto mr-auto mt-auto mb-auto p-24 text-4xl w-400 text-justify flex-row"
+          class="ml-auto mr-auto mt-auto mb-auto p-24 text-4xl text-justify flex-row"
         >
         {{ webContent.acercaText }}
         </p>
