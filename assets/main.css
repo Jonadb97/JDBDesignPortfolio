@@ -56,6 +56,16 @@ textarea {
     font-family: "Quicksand";
 }
 
+.language {
+    border: none;
+    position: absolute;
+    left: 3vw;
+    border-radius: 5px;
+    padding: 0 1rem 0 1rem;
+    font-size: 4rem;
+    cursor: pointer;
+}
+
 #whapp {
     display: flex;
     align-items: center;

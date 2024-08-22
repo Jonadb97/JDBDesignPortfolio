@@ -1,0 +1,14 @@
+{
+    "navbarAcerca": "About",
+    "navbarGaleria": "Projects",
+    "navbarContacto": "Contact",
+
+    "inicioText": "Argentinian front-end developer and graphic designer.",
+    "acercaTitle": "About myself",
+    "acercaText": "I've been working as a freelance developer for 4 years, working mainly with local clients, small businesses and creative agencies. <br><br> I've developed many landing pages, galleries, portfolios and static blogs. <br><br> I've also worked as a programmer in an office, where I did various maintenance and integration tasks for a wide range of projects made with different languages such as PHP, Python, Dart, Java and TypeScript. <br> <br> The framework I'm most familiar with is Vue.js, from front-end to API integration. I'm still studying and I have full-stack projects in PHP native.",
+
+    "galeriaTitle": "Projects",
+
+    "contactoTitle": "Contact",
+    "contactoText": "Contact me"
+}
