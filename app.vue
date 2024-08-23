@@ -752,7 +752,7 @@ let webContent = {
 
     inicioText: "Desarrollador web front-end y diseñador gráfico Argentino.",
     acercaTitle: "Acerca de mí",
-    acercaText: "Hace 4 años que trabajo principalmente como desarrollador freelance con trabajos locales para independientes, pequeños negocios y agencias creativas. <br><br> He desarrollado muchas landing pages, galerías, portfolios y blogs estáticos. <br><br> También trabajé como programador dentro de oficina en una empresa local en la que realizaba distintas tareas de mantenimiento e integración de funcionalidades a un amplio repertorio de proyectos hechos con distintos lenguajes como PHP, Python, Dart, Java y TypeScript. <br> <br> El framework que más domino es Vue.js, desde front-end hasta integración de APIs. Sigo estudiando y tengo proyectos personales full-stack en PHP nativo.",
+    acercaText: "Hace 4 años que trabajo principalmente como desarrollador freelance con trabajos locales para independientes, pequeños negocios y agencias creativas. He desarrollado muchas landing pages, galerías, portfolios y blogs estáticos. También trabajé como programador dentro de oficina en una empresa local en la que realizaba distintas tareas de mantenimiento e integración de funcionalidades a un amplio repertorio de proyectos hechos con distintos lenguajes como PHP, Python, Dart, Java y TypeScript. El framework que más domino es Vue.js, desde front-end hasta integración de APIs. Sigo estudiando y tengo proyectos personales full-stack en PHP nativo.",
 
     galeriaTitle: "Proyectos",
 
